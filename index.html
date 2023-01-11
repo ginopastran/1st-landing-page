@@ -11,24 +11,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+
+    <!-- NAVBAR -->
+
     <header class="header">
 
         <img src="/imagenes/Mercedes-Benz_logo.svg.svg">
         <nav class="navbar">
-            <ul>
+            <label for="toggle-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="toggle-menu">
+            <ul class="navbar-list">
                 <li><a class="navbar-link" href="#hero">Inicio</a></li>
                 <li><a class="navbar-link" href="#nosotros">Nosotros</a></li>
                 <li><a class="navbar-link" href="#contact">Contacto</a></li>
             </ul>
-            <img src="/imagenes/f1-car.svg" alt="" id="f1">
+
         </nav>
 
     </header>
 
     <main>
+
+        <!-- HERO -->
 
         <section id="hero">
 
@@ -42,7 +53,7 @@
 
                     <a href="#" class="button1">Comprar</a>
 
-                    <a href="#" class="button2">Leer más</a>
+                    <a href="#" class="button2"><span>Leer más</span></a>
 
                 </div>
 
@@ -51,6 +62,8 @@
             <img src="/imagenes/DALL·E 2022-12-21 18.18.22.png" alt="" class="hero-img">
 
         </section>
+
+        <!-- ABOUT US -->
 
         <section id="nosotros">
 
@@ -62,8 +75,96 @@
 
         </section>
 
+        <!-- CARDS -->
+
+        <section id="cards">
+
+            <div class="cards-title">
+
+                <h1>Ventajas de AMG</h1>
+
+                <p>Tener un auto Mercedes AMG trae ventajas que ningun otro puede tener</p>
+
+            </div>
+
+            <div class="cards">
+
+                <div class="card">
+
+                    <img src="/imagenes/star-8-svgrepo-com.svg" alt="star" class="star">
+
+                    <h2>Exclusive</h2>
+
+                    <p>No tengas miedo a ser diferente, ten miedo al ser como los demás</p>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="/imagenes/cash-payment-svgrepo-com.svg" alt="cash">
+
+                    <h2>Price</h2>
+
+                    <p>El verdadero precio de todo, lo que todo realmente le cuesta al hombre que quiere adquirirlo, es
+                        el esfuerzo y la complicación de adquirirlo.
+
+
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="/imagenes/quality-svgrepo-com.svg" alt="quality">
+
+                    <h2>Quality</h2>
+
+                    <p>La calidad nunca es un accidente, siempre es el resultado de un esfuerzo de la inteligencia</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+
+        <section id="contact">
+            <div class="info-container">
+                <h2>Contacto</h2>
+                <div class="contact-info-container">
+                    <div class="info-column">
+                        <h3>Mercedes AMG</h3>
+                        <p><i class="fas fa-location-dot"></i>Northampton NN6 9GZ, Reino Unido</p>
+                        <p><i class="fa-solid fa-envelope"></i>mercedesamg@contact.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+(31)9170973</p>
+                    </div>
+
+                    <div class="info-column">
+                        <h3>Social Media</h3>
+
+                        <a href="https://twitter.com/MercedesAMGF1t" target="_blank"><i
+                                class="fa-brands fa-twitter"></i>Twitter</a>
+                        <a href="https://www.instagram.com/mercedesamgf1/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i>Instagram</a>
+                        <a href="https://www.facebook.com/MercedesAMGF1" target="_blank"><i
+                                class="fa-brands fa-facebook"></i>Facebook</a>
+
+
+                    </div>
+                </div>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.9363793201856!2d-0.8979635847775204!3d52.33530025765401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48770c9674d81b2d%3A0x2450cef9b73d41d8!2sMercedes-Benz%20High%20Performance%20Engines!5e0!3m2!1ses!2sar!4v1673391392439!5m2!1ses!2sar"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
 
     </main>
+
+    <footer>Hecho con ❤️ por Gino</footer>
 
 </body>
 
